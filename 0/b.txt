@@ -1,0 +1,3 @@
+    for (\\test3i=0;s[i];i++)
+    if (!(fp1=fopen(name1,"r")))\\test2
+      fclose(fp1);\\test3

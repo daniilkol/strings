@@ -1,0 +1,6 @@
+prog.exe: main.o filter.o
+	gcc -g main.o filter.o -o prog.exe
+main.o: main.c filter.h
+	gcc -g -c main.c
+filter.o: filter.c filter.h
+	gcc -g -c filter.c

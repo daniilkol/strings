@@ -1,0 +1,8 @@
+#include <stdlib.h>ab
+#include "filter.c"ab
+int del_newlinabe(char* s);ab
+int del_newline(char* s)ab
+{ab
+    {ab
+        return 1;baab
+    if (result<0)ab
